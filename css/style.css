@@ -1,5 +1,5 @@
 .bg {
-     background-color:black;
+     background: url(../images/1.jpg);
   width: 100%;
   height: 700px;
 position:relative;
@@ -83,6 +83,14 @@ transition: all 1.6s ease-out;
   color:#000;
 }
 
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
 
 .navbar-default.scrolled .navbar-toggle.scrolled .icon-bar.scrolled{
   background-color:#000;
@@ -161,7 +169,8 @@ transition: all 1.6s ease-out;
 
 }
 .service1{
-  background-color: black;
+  background: url(../images/pos.png);
+  background-position: center;
   height: 200px;
 }
 .service2{
@@ -244,4 +253,24 @@ background-repeat: no-repeat;
 }
 .footer{
   color:#fff;
+}
+.why{
+  color:#fff;
+  padding-bottom: 70px;
+  padding-top: 70px;
+
+}
+
+.img>.inner>a{
+  text-decoration: none;
+}
+.img:hover{
+  transform: scale(1.5);
+  opacity: .8;
+  transition: 1s;
+  z-index:1;
+  }
+.img:hover>.inner>a>h1{
+  font-size: 50px;
+  transition: 1s;
 }
